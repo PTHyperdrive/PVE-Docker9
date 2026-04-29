@@ -36,7 +36,7 @@ run apt-get install -y devscripts autotools-dev autogen dh-autoreconf dkms doxyg
     libtest-mockmodule-perl libjemalloc-dev libjpeg-dev
 
 run apt-get install -y proxmox-default-kernel
-run apt-get remove -y linux-image-amd64 'linux-image-6.11 *'
+run apt-get remove -y linux-image-amd64 'linux-image-6.11*'
 
 run apt-get install -y docutils-common fonts-font-awesome libacl1-dev libattr1-dev libcap-ng-dev \
     libcap2-bin libegl-dev libepoxy-dev libfdt-dev libfdt1 libgbm-dev \
